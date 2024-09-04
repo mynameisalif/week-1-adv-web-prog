@@ -12,7 +12,9 @@
         src="new-logo-mnp-1-q556fv07lccqlk9tfqs2r8d272wp8i0cjtnl8zecyk.png"
         alt=""
       />
-      <h3>Please Sign In</h3>
+      <div class="title">
+        <p>Please Sign In</p>
+      </div>
       <form>
         <label for="nama"></label>
         <input
@@ -28,13 +30,19 @@
           name="password"
           placeholder="Password"
         />
-        <div>
+        <div class="checkbox">
           <input type="checkbox" id="horns" name="horns" />
           <label for="horns">Remember me</label>
         </div>
-        <input type="submit" value="Kirim" />
+        <input type="submit" value="Sign In" />
+        <a href="#">Register</a>
       </form>
-       
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
     </div>
     <script type="text/javascript" src="script.js"></script>
   </body>
