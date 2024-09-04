@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 300px;
+  background-color: rgb(238, 238, 238);
+}
+.title {
+  font-size: 20px;
+}
+.container img {
+  width: 200px;
+}
+form {
+  display: inline-grid;
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: 40px;
+}
+input[id="confirm-password"] {
+  margin-top: 10px;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #1672f3;
+  color: #ffffff;
+  padding: 10px;
+  border: #1672f3;
+  border-radius: 5px;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+a {
+  color: #1672f3;
+}
